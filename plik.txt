@@ -1,0 +1,5 @@
+objetosc : 4
+powierzchnia podlogi : 2
+powierzchnia scian : 12
+koszt malowania : 60
+koszt malowania podlogi : 10
