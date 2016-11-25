@@ -25,21 +25,21 @@ public class main {
 		Pokoj salon = new Pokoj(dl, sz, wys);
 		
 		System.out.println("pokoj");
-		System.out.println("objetosc : " + Integer.toString(salon.objetosc()));
-		System.out.println("powierzchnia podlogi : " + Integer.toString(salon.pow_podlogi()));
-		System.out.println("powierzchnia scian : " + Integer.toString(salon.pow_scian()));
-		System.out.println("koszt malowania : " + Integer.toString(salon.koszt_malowania()));
-		System.out.println("koszt malowania podlogi : " + Integer.toString(salon.koszt_malowania_podlogi()));
+		System.out.println("objetosc : " + salon.objetosc());
+		System.out.println("powierzchnia podlogi : " + salon.pow_podlogi());
+		System.out.println("powierzchnia scian : " + salon.pow_scian());
+		System.out.println("koszt malowania : " + salon.koszt_malowania());
+		System.out.println("koszt malowania podlogi : " + salon.koszt_malowania_podlogi());
 		System.out.println("");
 		
 		
 		try {
 			PrintWriter pw = new PrintWriter("plik.txt");
-			pw.println("objetosc : " + Integer.toString(salon.objetosc()));
-			pw.println("powierzchnia podlogi : " + Integer.toString(salon.pow_podlogi()));
-			pw.println("powierzchnia scian : " + Integer.toString(salon.pow_scian()));
-			pw.println("koszt malowania : " + Integer.toString(salon.koszt_malowania()));
-			pw.println("koszt malowania podlogi : " + Integer.toString(salon.koszt_malowania_podlogi()));
+			pw.println("objetosc : " + salon.objetosc());
+			pw.println("powierzchnia podlogi : " + salon.pow_podlogi());
+			pw.println("powierzchnia scian : " + salon.pow_scian());
+			pw.println("koszt malowania : " + salon.koszt_malowania());
+			pw.println("koszt malowania podlogi : " + salon.koszt_malowania_podlogi());
 			
 			pw.close();
 		} catch (FileNotFoundException e) {
